@@ -77,6 +77,14 @@ print("Finish")
 ```
 {% endcode %}
 
+#### 索引
+
+{% code title="" overflow="wrap" %}
+```python
+// Some code
+```
+{% endcode %}
+
 ## 数据类型
 
 数据类型可根据 value 是否可变区分为可变对象（list、dict、set）与不可变对象（number、str、tuple）
@@ -121,38 +129,45 @@ print(b)
 
 int、float、bool、complex 均属于数字。
 
-{% code title="" overflow="wrap" %}
+{% code overflow="wrap" %}
 ```python
-print(id(1)) # 输出 1606077055216
-print(id(2)) # 输出 1606077055248
-a = 1
-print(id(a)) # 输出 1606077055216
-a = 2
-print(id(a)) # 输出 1606077055248
+a = True
+b = False
+print(id(1)) # 输出 2086197881136
+print(id(0)) # 输出 2086197881104
+print(id(True)) # 输出 140731585263720
+print(id(False)) # 输出 140731585263752
+print(id(a)) # 输出 140731585263720
+print(id(b)) # 输出 140731585263752
+print(id(True+False)) # 输出 2086197881136
 ```
 {% endcode %}
 
 #### String-"字符串" <a href="#avwlo" id="avwlo"></a>
 
-字符串为不可变对象，一经创建不可修改。
+字符串为不可变对象，一经创建不可修改。需要用一对单引号或双引号包起来，文案中还有引号时需使用反斜杠进行转义。
 
-```
+{% code overflow="wrap" %}
+```python
 print('''"t'fjj"''') # 输出 "t'fjj"
 print("a")  # 输出 a
 print('b')  # 输出 b
 print('\'s')  # 输出 's
 ```
+{% endcode %}
 
 #### List-\[列表] <a href="#jeose" id="jeose"></a>
 
-```
-# 列表可存储任意对象
-# 以下为改对象
+列表可存储任意对象
+
+{% code overflow="wrap" %}
+```python
 a = [1,2,3]
 b = a
 b[0] = 5
 print(a) # 输出 [5, 2, 3]
 ```
+{% endcode %}
 
 #### Tuple-(元祖) <a href="#mo5xv" id="mo5xv"></a>
 
