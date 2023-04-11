@@ -4,8 +4,9 @@
 
 ## PYTHON
 
+* [Thoughts](python/thoughts.md)
 * [Based](python/based/README.md)
-  * [Basic](python/based/basic.md)
+  * [Basic](page-1.-objects.md)
   * [2. Functions](<README (1).md>)
   * [Page 1](python/based/page-1.md)
   * [Page 2](python/based/page-2.md)
