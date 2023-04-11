@@ -2,7 +2,7 @@
 description: 函数：可在任意位置复用的对象，可储存一串代码，是一组可执行任务的语句。
 ---
 
-# 2. Functions
+# Functions
 
 <pre class="language-python" data-title="定义函数" data-overflow="wrap"><code class="lang-python">""" 
 函数名可包含字母、数字、下划线，不可由数字开头。 

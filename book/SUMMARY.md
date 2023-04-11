@@ -4,10 +4,10 @@
 
 ## PYTHON
 
-* [Thoughts](python/thoughts.md)
-* [Based](python/based/README.md)
-  * [Basic](page-1.-objects.md)
-  * [2. Functions](<README (1).md>)
-  * [Page 1](python/based/page-1.md)
-  * [Page 2](python/based/page-2.md)
-  * [Page 3](python/based/page-3.md)
+* [Catalog](python/catalog/README.md)
+  * [Thoughts](python/catalog/thoughts.md)
+  * [Basic](python/catalog/basic.md)
+  * [Functions](python/catalog/functions.md)
+  * [Page 1](python/catalog/page-1.md)
+  * [Page 2](python/catalog/page-2.md)
+  * [Page 3](python/catalog/page-3.md)

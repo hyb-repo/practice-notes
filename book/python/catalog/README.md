@@ -2,5 +2,5 @@
 layout: editorial
 ---
 
-# Based
+# Catalog
 
