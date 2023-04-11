@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Page 2. Functions](README.md)
-* [Page 1. Objects](page-1.-objects.md)
+* [Python](README.md)
+  * [1. Objects](python/1.-objects.md)
+  * [2. Functions](python/2.-functions.md)
