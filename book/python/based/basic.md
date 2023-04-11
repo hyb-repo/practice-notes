@@ -1,8 +1,8 @@
 ---
-description: 语言基础
+description: 基础知识
 ---
 
-# 1. Basic
+# Basic
 
 ## 基础**语法**
 
