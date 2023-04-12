@@ -77,14 +77,6 @@ print("Finish")
 ```
 {% endcode %}
 
-#### 索引
-
-{% code title="" overflow="wrap" %}
-```python
-// Some code
-```
-{% endcode %}
-
 ## 数据类型
 
 数据类型可根据 value 是否可变区分为可变对象（list、dict、set）与不可变对象（number、str、tuple）
@@ -127,7 +119,7 @@ print(b)
 
 #### Number-数字 <a href="#bcvdj" id="bcvdj"></a>
 
-int、float、bool、complex 均属于数字。
+数字为不可变对象。int、float、bool、complex 均属于数字。bool 有 True 和 False，在字符串、列表、元组中不为零或非空均视为 True，反之则为 False。
 
 {% code overflow="wrap" %}
 ```python
@@ -145,31 +137,37 @@ print(id(True+False)) # 输出 2086197881136
 
 #### String-"字符串" <a href="#avwlo" id="avwlo"></a>
 
-字符串为不可变对象，一经创建不可修改。需要用一对单引号或双引号包起来，文案中还有引号时需使用反斜杠进行转义。
+字符串为不可变对象。需要用一对单/双/三引号包起来，文案中还有引号时需使用反斜杠进行转义。支持索引截取。
 
 {% code overflow="wrap" %}
 ```python
 print('''"t'fjj"''') # 输出 "t'fjj"
 print("a")  # 输出 a
 print('b')  # 输出 b
-print('\'s')  # 输出 's
+print('\'s')  # 转义，输出 's
+print(r'\'s') # 引号前加 r 表示不转义，输出 \'s
+print("123"[1:]) # 支持索引截取，输出 23
 ```
 {% endcode %}
 
 #### List-\[列表] <a href="#jeose" id="jeose"></a>
 
-列表可存储任意对象
+列表为可变对象。可存储任意对象，可有重复元素，元素可以是不同类型。支持索引截取。
 
 {% code overflow="wrap" %}
 ```python
-a = [1,2,3]
+a = [1,2,3,4,5]
 b = a
-b[0] = 5
-print(a) # 输出 [5, 2, 3]
+b[0] = 5 #
+print(a) # 输出 [5, 2, 3, 4, 5]
+print(a[0:5:2]) # 输出 [5, 3, 5]
+print(a[0::3]) # 输出 [5, 4]
 ```
 {% endcode %}
 
 #### Tuple-(元祖) <a href="#mo5xv" id="mo5xv"></a>
+
+元组为不可变对象。可存储任意对象，可有重复元素，元素可以是不同类型。支持索引截取。
 
 ```
 tuple_1 = 1,2,3,4
@@ -466,7 +464,8 @@ print(‘result=’，result)
 # > 检查一个集合是否是另一个集合的真超集
 ```
 
-\
+运算符\
+
 
 
 \
