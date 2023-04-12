@@ -1,13 +1,10 @@
 # Table of contents
 
 * [Home](README.md)
-
-## PYTHON
-
-* [Catalog](python/catalog/README.md)
-  * [Basic](python/catalog/basic.md)
-  * [Thoughts](python/catalog/thoughts.md)
-  * [Functions](python/catalog/functions.md)
-  * [Page 1](python/catalog/page-1.md)
-  * [Page 2](python/catalog/page-2.md)
-  * [Page 3](python/catalog/page-3.md)
+* [PYTHON](python/README.md)
+  * [Basic](python/basic.md)
+  * [Thoughts](python/thoughts.md)
+  * [Functions](python/functions.md)
+  * [Page 1](python/page-1.md)
+  * [Page 2](python/page-2.md)
+  * [Page 3](python/page-3.md)
